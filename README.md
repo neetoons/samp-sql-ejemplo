@@ -1,6 +1,6 @@
 # Gamemode de ejemplo para entender la libreria SA-MP-MySQL
 
-[![sampctl](https://img.shields.io/badge/sampctl-conce-2f2f2f.svg?style=for-the-badge)](https://github.com/neetoons/samp-sql-ejemplo)
+[![sampctl](https://img.shields.io/badge/sampctl-samp-sql-ejemplo-2f2f2f.svg?style=for-the-badge)](https://github.com/neetoons/samp-sql-ejemplo)
 
 Gamemode de ejemplo donde se usa la libreria [SA-MP-MYSQL](https://github.com/pBlueG/SA-MP-MySQL) para guardar la posicion actual del jugador.
 
@@ -15,8 +15,15 @@ sampctl package install neetoons/samp-sql-ejemplo
 La base de datos se encuentra en la carpeta database.
 
 
-Para correr simplemente corre este comando:
-
+## Instalacion de includes/dependencias
+Para instalar los includes y los plugins simplemente corre este comando:
+```bash
+sampctl package ensure
+```
+## Compilacion
+```bash
+sampctl package build 
+```
 ```bash
 sampctl package run
 ```
@@ -26,4 +33,4 @@ sampctl package run
 ```
 
 ## Resultado
-![imagen resultado](https://github.com/neetoons/samp-sql-nuevo/resultado.jpg)
+![imagen resultado](https://github.com/neetoons/samp-sql-ejemplo/blob/main/resultado.png)
