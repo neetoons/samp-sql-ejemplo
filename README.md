@@ -8,7 +8,7 @@ Gamemode de ejemplo donde se usa la libreria [SA-MP-MYSQL](https://github.com/pB
 
 Simplemente instalalo en tu proyecto con sampctl:
 ```bash
-sampctl package install neetoons/samp-sql-ejemplo
+sampctl install neetoons/samp-sql-ejemplo
 ```
 
 ## Instalacion de la base de datos 
@@ -18,14 +18,14 @@ La base de datos se encuentra en la carpeta database.
 ## Instalacion de includes/dependencias
 Para instalar los includes y los plugins simplemente corre este comando:
 ```bash
-sampctl package ensure
+sampctl ensure
 ```
 ## Compilacion
 ```bash
-sampctl package build 
+sampctl build 
 ```
 ```bash
-sampctl package run
+sampctl run
 ```
 ## Comandos
 ```
